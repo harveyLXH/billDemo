@@ -10,7 +10,7 @@ const Year = () => {
 
   return (
     <div className="billDetail">
-      <NavBar className="nav" backArrow={false}>
+      <NavBar className="nav" backIcon={false}>
         <div className="nav-title" onClick={onShowDate}>
           {date}年<span className={classNames("arrow", visible && "expand")}></span>
         </div>
